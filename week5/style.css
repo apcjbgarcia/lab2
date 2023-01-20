@@ -41,7 +41,6 @@ li a:hover {
 
 body {
 	background-color: #fafaff;
-	overflow: hidden;
 }
 
 .img-pfp {
@@ -103,6 +102,10 @@ body {
 		width: 1000px;
 		}
 
+		body {
+			overflow: hidden;
+		}
+		
 	.about {
 		width: 60%;
 		float: right;
