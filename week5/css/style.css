@@ -40,7 +40,7 @@ li a:hover {
 }
 
 body {
-	background-color: #fafaff;
+	background-color: #e0e0e0;
 }
 
 .img-pfp {
@@ -55,9 +55,9 @@ body {
 .about h1 {
 	padding: 30px 30px 20px;
 	font-family: Roboto;
-	font-size: 60px;
+	font-size: 55px;
 	color: #162651;
-	line-height: 30px;
+	line-height: 40px;
 }
 
 .about p {
@@ -66,6 +66,50 @@ body {
 	font-size: 30px;
 	color: #2F3B69;
 	line-height: 40px;
+}
+
+.references {
+	display: block;
+	width: 75%;
+	padding: 30px;
+	padding-left: 50px;
+	border: 5px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 9%;
+}
+
+dl {
+	list-style-type : none;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	font-family: Roboto;
+	line-height: 50px;
+}
+
+dt {
+	font-size: 32px;
+}
+
+dd {
+	font-size: 24px;
+	text-indent: 60px;
+}	
+
+.demo {
+	font-family: Roboto;
+	color: #162651;
+	display: flex;
+}
+
+.demo h1 {
+	font-weight: bold;
+}
+
+span {
+	color: black;
+	font-size: 85px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,7 +157,8 @@ body {
 		}
 		
 	.about h1 {
-		padding: 20px 0px 20px 100px;
+		padding: 90px 0px 30px 100px;
+		text-indent: 15px;
 		}
 	
 	.about p {
