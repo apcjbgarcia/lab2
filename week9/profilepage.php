@@ -10,9 +10,9 @@
         </head>
         <body>
                 <ul>
-                        <li><a href="references.html">References</a></li>
-                        <li><a href="aboutme.html">About Me</a></li>
-                        <li><a href="profilepage.html">Profile Page</a></li>
+                        <li><a href="references.php">References</a></li>
+                        <li><a href="aboutme.php">About Me</a></li>
+                        <li><a href="profilepage.php">Profile Page</a></li>
                 </ul>
                 <img class="img-pfp" src="img/pfp.jpg" alt="Profile Picture">
                 <div class="wrapper">

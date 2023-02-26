@@ -3,7 +3,7 @@
 <head>
 <title>This is fine.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="4; url = profilepage.html">
+<meta http-equiv="refresh" content="4; url = profilepage.php">
 <link rel="icon" type="image/x-icon" href="img/icon.png">
 </head>
 
