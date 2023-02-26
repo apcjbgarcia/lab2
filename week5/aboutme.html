@@ -69,6 +69,8 @@
 	</div>
   </div> 
 		<button onclick="myFunction()">Try it</button>
+		<button onclick="myFunction()">Try it</button>
+		<p id="demo"></p>
 		<script>
 			let slideIndex = 1;
 				showSlides(slideIndex);
@@ -107,6 +109,16 @@
 
 			function myFunction() {
 					alert("This is the 'About Me' Section.");
+			}
+			function myFunction() {
+				let text;
+				let person = prompt("Please enter your name:", "Harry Potter");
+				if (person == null || person == "") {
+					text = "User cancelled the prompt.";
+				} else {
+					text = "Hello " + person + "! How are you today?";
+				}
+				document.getElementById("demo").innerHTML = text;
 			}
 		</script>
 	</body>
