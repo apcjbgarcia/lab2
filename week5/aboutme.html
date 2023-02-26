@@ -14,6 +14,11 @@
 			<li><a href="aboutme.html">About Me</a></li>
 			<li><a href="profilepage.html">Profile Page</a></li>
 		</ul>
+		<script>
+			function myFunction() {
+			alert('Hello');
+			}
+		</script>
 		<!--
 		<div class="references">
 			<h1 style="margin-left: auto; margin-right: auto"> TO BE FILLED IN </h1>
@@ -63,7 +68,7 @@
 	  <p id="caption"></p>
 	</div>
   </div> 
-		
+		<button onclick="myFunction()">Try it</button>
 		<script>
 			let slideIndex = 1;
 				showSlides(slideIndex);
@@ -98,7 +103,11 @@
 				slides[slideIndex-1].style.display = "block";
 				dots[slideIndex-1].className += " active";
 				captionText.innerHTML = dots[slideIndex-1].alt;
-		} 
+			} 
+
+			function myFunction() {
+					alert("This is the 'About Me' Section.");
+			}
 		</script>
 	</body>
 </html>
