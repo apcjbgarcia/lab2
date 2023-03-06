@@ -4,9 +4,8 @@
 		<title> References </title>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
 			<link rel="icon" type="image/x-icon" href="img/icon.png">
-			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="css/references.css">
 	</head>
 	<body>
 		<ul>
@@ -24,8 +23,6 @@
 					<dd>- Source and Reference of CSS Lessons and Implementations. </dd>
 				<dt><a href="https://www.w3schools.com/js/"> JavaScript W3Schools </a></li>
 					<dd>- Source and Reference of JavaScript Lessons and Implementations. </dd>
-				<dt><a href="https://youtu.be/ZYV6dYtz4HA"> How to create a Website Responsive (by Dani Krossing) </a></li>
-					<dd>- A guide on how to make your website to be responsive.<dd>
 			</dl>
 		</div>
 	</body>
